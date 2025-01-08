@@ -1,0 +1,8 @@
+/data/dataapp/HwMirror/HwMirror.apk
+/data/dataapp/HwCompass/HwCompass.apk
+/data/dataapp/HwNfcTag/HwNfcTag.apk
+/data/dataapp/Huawei_Swype_for_Huawei/Huawei_Swype_for_Huawei.apk
+/data/dataapp/HwAllBackup_Local/HwAllBackup_Local.apk
+/data/dataapp/AirSharing/AirSharing.apk
+/data/dataapp/WPS/WPS.apk
+/data/dataapp/HwHealthPlatform/HwHealthPlatform.apk

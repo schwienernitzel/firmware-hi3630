@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources>
+    <!-- DTS2015110907012 yaozebo/wx309825 20151112 begin -->
+    <integer settings.global.wifi_sleep_policy="2"/>
+    <!-- DTS2015110907012 yaozebo/wx309825 20151112 end -->
+    <!-- DTS2015110208860 pengkelin/pwx307511 20151110 delete -->
+    <!-- DTS2016022701116 wangchao/00221726 20160227 delete -->
+    <!--bool hw_backup_otg_enable ="true"/-->
+    <!--bool hw_backup_sd_disable ="true"/-->
+    <string hw_def_theme_version="2.0"/>
+    <integer user_power_tip="1"/>
+    <bool settings.secure.bluetooth_on="false"/>
+    <!-- DTS2014033106179 x00227495 20140331 begin -->
+    <!-- DTS2014033106179 x00227495 20140331 end -->
+    <!-- DTS2011120504027 luowentao59275 20111205 begin -->
+    <!-- Show settings preference of toolbox or not. If value of toolBoxSwitch is set to "1", then value of toolBoxDisplayWidgetNameArray must also available. -->
+    <!-- DTS2011120504027 luowentao59275 20111205 end -->
+    <!-- DTS2011121304270 luowentao 20111213 begin -->
+    <!-- DTS2011121304270 luowentao 20111213 end -->
+    <!--DTS2011121307393 luowentao 20111213 begin-->
+    <integer hwfeature_mmssound="1"/>
+    <!--DTS2011121307393 luowentao 20111213 end-->
+    <!-- DTS2015030902399 z00169648 20150309 begin -->
+    <!-- DTS2015030902399 z00169648 20150309  end -->
+    <!-- DTS2011112802074 yangchenghai 00184280 20111208 begin -->
+    <!-- When remote hand up ,whether screen should wakeup or not ,here we set value is wakeup-->
+    <!-- BEGIN PN: DTS2014070906123, Modified by jiangpingping/KF58212, 2014/07/10 -->
+    <!--<bool hw_call_wakeup="true"/>-->
+    <!-- END PN: DTS2014070906123, Modified by jiangpingping/KF58212, 2014/07/10 -->
+     <!-- DTS2012070305313 chenzhong 20120703 begin -->
+    <!--DTS2012122503629 shifengbing add Austrian mcc/mnc 20121226 begin-->
+    <!--DTS2012122503629 shifengbing add Austrian mcc/mnc 20121226 end-->
+    <!-- DTS2012070305313 chenzhong 20120703 end -->
+    <!-- DTS2011112802074 yangchenghai 00184280 20111208 end -->
+    <!-- DTS2015110301964 pengkelin/pwx307511 20151110 oversea begin -->
+    <!-- DTS2015110301964 pengkelin/pwx307511 20151110 end -->
+    <!-- DTS2011030905517 shifengbin 20110314 begin -->
+    <integer settings.system.screen_brightness="128"/>
+    <!-- DTS2011030905517 shifengbin 20110314 end -->
+    <!-- DTS2015110907012 yaozebo/wx309825 20151112 delete 1 line -->
+    <!-- DTS2010092701023 mengxiaokun00172620 20100930 begin -->
+    <integer power_saving_on="0"/>
+    <!-- DTS2010092701023 mengxiaokun00172620 20100930 end -->
+	<!-- DTS2014080407887  l84023648 20140806 begin -->
+    <!-- DTS2014081403106 w00252963 20140815 delete begin -->
+    <!-- DTS2014081403106 w00252963 20140815 delete end -->
+    <!-- DTS2014080407887  l84023648 20140806 end -->
+    <!-- DTS2011121605249 niguanhua 20111216 begin -->
+    <!-- When remote answer ,whether vibrate should turn on  or not ,here we set value is turn on-->
+    <!-- DTS2011121605249 niguanhua 20111216 end -->
+    <!-- BEGIN PN: DTS2014070906123, Modified by jiangpingping/KF58212, 2014/07/10 -->
+    <!--<integer hwfeature_endtocall_log="1"/>-->
+    <!-- END PN: DTS2014070906123, Modified by jiangpingping/KF58212, 2014/07/10 -->
+    <!-- DTS2011072606499 wanggang 20110802 begin -->
+    <integer log_emergency_number="1"/>
+    <!-- DTS2011072606499 wanggang 20110802 end -->
+    <!-- DTS2014012601155 zhuchao z00208524 20140211 begin -->
+    <!-- don't use ipcall feature-->
+    <!-- DTS2011112503270 yangchenghai 00184280 20111205 begin -->
+    <integer ipcall_enabled="0" />
+    <!-- DTS2011112503270 yangchenghai 00184280 20111205 end -->
+    <!-- DTS2014012601155 zhuchao z00208524 20140211 end -->
+    <!-- DTS2011111100533 wanggang 20110804 begin -->
+    <!-- DTS2011111100533 wanggang 20110804 end -->
+    <!-- DTS2012062804800 zhouxiaming/KF70267 20120629 begin -->
+    <!-- DTS2012062804800 zhouxiaming/KF70267 20120629 end -->
+    <!-- DTS2011092303772 daixueming 20110923 begin -->
+    <integer enable_wps="1"/>
+    <!-- DTS2011092303772 daixueming 20110923 end -->
+    <!-- DTS2012022300283  linrongqiu 20120228 begin -->
+    <integer config_camera_stopFM="0"/>
+    <!-- DTS2012022300283  linrongqiu 20120228 end -->
+    <!-- DTS2012022804212 zhangyafeng 20120228 begin -->
+    <integer hw_video_qulity_level="1"/>
+    <!-- DTS2012022804212 zhangyafeng 20120228 end -->
+    <!-- < DTS2012120502993  mengxinxin 20121207 begin -->
+    <!-- DTS2012120502993  mengxinxin 20121207 end > -->
+    <!-- DTS2012022005900  litie 20120302 begin -->
+    <integer hw_front_camera_support_coloreffect="1"/>
+    <!-- DTS2012022005900  litie 20120302 end -->
+    <!-- DTS2012120705509 changleitao/KF49063 20121210 begin -->
+    <string hwsupport_bluetooth_media="true"/>
+    <!-- DTS2012120705509 changleitao/KF49063 20121210 end -->
+    <integer settings.secure.hwusbport="1"/>
+    <!-- DTS2012102602047 dingchao/WB-dkf66792 20121116 begin -->
+    <integer hard_key_type="2"/>
+    <!-- DTS2012102602047 dingchao/WB-dkf66792 20121116 end -->
+    <!--string default_first_music="Emo_Mamma.mp3"/-->
+    <bool settings.secure.wifi_on="false"/>
+	<!-- DTS2013050909483 qinzhongfei 20130621 begin -->
+    <!--integer settings.system.show_hwlock_first="0"/-->
+	<!-- DTS2013050909483 qinzhongfei 20130621 end -->
+    <!-- DTS2014010302394 liulei 00212975 20140114 begin-->
+    <!-- DTS2014010302394 liulei 00212975 20140114 end-->
+    <!-- DTS2013120303121 z00187968 z00187968 begin -->
+    <fraction settings.global.convert_brightnesss_factor="320%"/>
+    <!-- DTS2015100902781 wx302267 20151012 begin -->
+    <fraction brightness_threshold="12%"/>
+    <!-- DTS2015100902781 wx302267 20151012 end -->
+    <!-- DTS2013120303121 z00187968 z00187968  end -->
+    <!-- DTS2014081806975 leiwei81004307 20140903 delete 1 line  -->
+    <!-- DTS2014021807179 bisheng 20140222 begin -->
+    <!-- DTS2014072308785 zhuzefeng 00266453 20140724 begin -->
+    <string hw_networkmode_preference="9,3,11,2,1" reset="true"/>
+    <integer hw_global_networkmode_settings_enable="1"/>
+    <!-- DTS2014072308785 zhuzefeng 00266453 20140724 end -->	
+    <!-- DTS2014021807179 bisheng 20140222 end -->
+    <integer settings.system.screen_brightness_mode="1"/>
+    <!-- DTS2014040907967 g00122041 20140416 begin -->
+    <!-- DTS2014030800351 jiayanhong/00176905 20140308 begin -->
+    <!-- DTS2014053000811   zhanghao 00260328 20140616 begin-->
+    <!-- DTS2014062307965 g00122041 20140623 begin-->
+    <string no_write_sms_package="com.huawei.android.ds,com.android.mediacenter,com.huawei.hwid,com.huawei.security,com.huawei.hisuite,com.android.phone,com.huawei.remoteassistant"/>
+    <!-- DTS2014062307965 g00122041 20140623 end-->
+    <!-- DTS2014053000811   zhanghao 00260328 20140616 end-->
+    <!-- DTS2014030800351 jiayanhong/00176905 20140308 end -->
+    <!-- DTS2014040907967 g00122041 20140416 end -->
+	<!-- DTS2014032402723 maxiaowen/00245209 20140411 begin -->
+	<!-- DTS2014032402723 maxiaowen/00245209 20140411 end -->
+    <!-- DTS2014061205381 zhuzefeng/00266453 20140704 begin -->
+    <!-- DTS2014061205381 zhuzefeng/00266453 20140704 end -->
+    <!-- DTS2014061201251 leiwei 81004307 20140721 begin-->
+    <!-- DTS2014081101401 hesen WX218260 20140821 begin-->
+    <!-- DTS2014120401103 fWX228941 20141230 begin-->
+    <!-- DTS2015071305317 wx275179 20150724 begin -->
+    <!-- DTS2015102703017 yaozebo/wx309825 20151029 begin -->
+    <!-- <string hw_devicenameandimei_custap="HUAWEI_MT7-L09"/> -->
+    <!-- DTS2015102703017 yaozebo/wx309825 20151029 end -->
+    <!-- DTS2015071305317 wx275179 20150724 end -->
+    <!-- DTS2014120401103 fWX228941 20140821 end-->
+    <!-- DTS2014081101401 hesen WX218260 20140821 end-->
+    <!-- DTS2014061201251 leiwei 81004307 20140721 end-->
+    <!-- DTS2014062702470 qining 00273719 20140811 begin-->
+    <integer hw_ussd_ime_type_class_phone="1"/>
+    <!-- DTS2014062702470 qining 00273719 20140811 end-->
+    <!-- DTS2014072203002 leiwei 81004307 20140814 begin-->
+    <!-- DTS2014120401104 f81004127 20140105 begin -->
+    <integer operator_name_separate="1" />
+    <!-- DTS2014120401104 f81004127 20140105 end -->
+    <!-- DTS2014072203002 leiwei 81004307 20140814 end-->
+    <!-- DTS2014080101689 shenchenkai 20140819 add begin-->
+    <string apps_set_oomadj="com.android.externalstorage"/>
+    <integer oomadj.com.android.externalstorage="5"/>
+    <!-- DTS2014080101689 shenchenkai 20140819 add end-->
+    <!-- DTS2014081910238 luomeiling 20140820 add-->
+    <!-- DTS2014081910238 luomeiling 20140820 add-->
+    <!-- DTS2014082906877 leiwei81004307 20140830 begin-->
+    <integer settings.system.androidBeam="1"/>
+    <!-- DTS2014082906877 leiwei81004307 20140830 end-->
+    <!-- DTS2014120401108 f81004127 20141224 begin-->
+    <!-- DTS2014120401108 f81004127 20141224 end-->
+    <!-- DTS2016012008688 wanglin/wx308377 20160125 delete -->
+    <integer settings.system.glove_file_node="0" />
+</resources>

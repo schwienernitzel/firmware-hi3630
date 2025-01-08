@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2006, Google Inc.
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<!--DTS2012061801796 hanmincheng 00178881 20120618 created -->
+
+<carrierweeks version="1">
+    <carrierweek numeric="26202"
+        carrier="Vodafone"
+        firstdayofweek="1"
+    />
+    
+    <carrierweek numeric="27201"
+        carrier="Vodafone"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20416"
+        carrier="T-mobile"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="26801"
+        carrier="Vodafone"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="22210"
+        carrier="Vodafone"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="22802"
+        carrier="Sunrise"
+        firstdayofweek="1"
+    />
+	<carrierweek numeric="21401"
+        carrier="Vodafone"
+        firstdayofweek="2"
+    />
+	<carrierweek numeric="21405"
+        carrier="Tuenti"
+        firstdayofweek="2"
+    />
+	<carrierweek numeric="21421"
+        carrier="Jazztel"
+        firstdayofweek="2"
+    />
+    <carrierweek numeric="21407"
+        carrier="TME"
+        firstdayofweek="2"
+    />
+	<carrierweek numeric="21403"
+        carrier="Orange"
+        firstdayofweek="2"
+    />
+    <carrierweek numeric="21404"
+        carrier="Yoigo"
+        firstdayofweek="2"
+    />
+    <carrierweek numeric="21419"
+        carrier="KPN ES"
+        firstdayofweek="2"
+    />
+    <carrierweek numeric="21418"
+        carrier="ONO"
+        firstdayofweek="2"
+    />
+    <carrierweek numeric="21406"
+        carrier="Mundo-R"
+        firstdayofweek="2"
+    />
+	<carrierweek numeric="72405"
+        carrier="Claro"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="72406"
+        carrier="Claro"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="72410"
+        carrier="Vivo"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="72411"
+        carrier="Vivo"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="72423"
+        carrier="Vivo"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="72402"
+        carrier="TIM"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="72403"
+        carrier="TIM"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="72404"
+        carrier="TIM"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="72408"
+        carrier="TIM"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="72431"
+        carrier="Oi"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="72424"
+        carrier="Oi"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="72416"
+        carrier="Oi"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="72415"
+        carrier="Oi"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="72432"
+        carrier="CTBC"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="72433"
+        carrier="CTBC"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="72434"
+        carrier="CTBC"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="72439"
+        carrier="Nextel"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="722310"
+        carrier="Claro AR"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="72234"
+        carrier="personal"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="722341"
+        carrier="personal"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="72207"
+        carrier="Movistar"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="74404"
+        carrier="Tigo"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="74402"
+        carrier="Claro"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="74405"
+        carrier="Personal"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="74401"
+        carrier="Vox"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="74801"
+        carrier="Antel"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="74810"
+        carrier="Claro"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="74807"
+        carrier="Vox"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="73002"
+        carrier="movistar"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="73009"
+        carrier="nextel"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="73001"
+        carrier="entel"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="73010"
+        carrier="entel"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="73003"
+        carrier="claro"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="73008"
+        carrier="vtr"
+        firstdayofweek="1"
+    />
+    
+    <carrierweek numeric="71617"
+        carrier="Nextel"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="71606"
+        carrier="Movistar"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="71610"
+        carrier="CLARO"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="73603"
+        carrier="TIGO"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="73602"
+        carrier="Entel"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="73601"
+        carrier="Nuevatel"
+        firstdayofweek="1"
+    />
+<!--DTS2013010400144 zhangjunwei 20130121 begin -->
+    <carrierweek numeric="73004"
+        carrier="nextel"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="73005"
+        carrier="vtr"
+        firstdayofweek="1"
+    />
+<!--DTS2013010400144 zhangjunwei 20130121 end -->
+    <carrierweek numeric="27205"
+        carrier="3"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="22288"
+        carrier="WIND"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="22299"
+        carrier="3"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="22201"
+        carrier="TIM"
+        firstdayofweek="1"
+    />
+    <!--DTS2013030406490 chenzhong  20130306 begin -->
+    <carrierweek numeric="26203"
+        carrier="E-Plus"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="26207"
+        carrier="o2(Postpay)"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="27203"
+        carrier="Meteor"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="27211"
+        carrier="Tesco"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20408"
+        carrier="KPN"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20404"
+        carrier="Vodafone"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20412"
+        carrier="Telfort"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="26803"
+        carrier="Optimus"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="26806"
+        carrier="TMN"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="22801"
+        carrier="Swissco"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="22803"
+        carrier="Orange"
+        firstdayofweek="1"
+    />
+    <!--DTS2013030406490 chenzhong  20130306 end -->
+    <!--DTS2013033006705 chenzhong 20130402 begin -->
+    <carrierweek numeric="26201"
+        carrier="T-Mobile"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="26203"
+        carrier="E-Plus"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="2620739"
+        carrier="o2(Postpay)"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="2620749"
+        carrier="o2(Prepay)"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="26207520"
+        carrier="O2(LIDL MOBILE)"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="26207500"
+        carrier="O2(Tchibo)"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="26207515"
+        carrier="O2(Fonic)"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="27205"
+        carrier="3"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="27203"
+        carrier="Meteor"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="27211"
+        carrier="Tesco"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="27202"
+        carrier="O2"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="23415"
+        carrier="Vodafone"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="23410"
+        carrier="O2"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="23433"
+        carrier="Orange"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="23434"
+        carrier="Orange"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="23486"
+        carrier="Orange"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="23430"
+        carrier="T-mobile"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="23431"
+        carrier="T-mobile"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="23432"
+        carrier="T-mobile"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="23420"
+        carrier="3"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20601"
+        carrier="Proximus"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20620"
+        carrier="Base Belgium"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20610"
+        carrier="Mobistar"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20408"
+        carrier="KPN"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20404"
+        carrier="Vodafone"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20412"
+        carrier="Telfort"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="27001"
+        carrier="Lux GSM"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="27077"
+        carrier="Tango"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="27099"
+        carrier="Orange Lux"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="208/10"
+        carrier="SFR"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20820"
+        carrier="Bouygues"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20815"
+        carrier="Free"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20801"
+        carrier="Orange"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20823"
+        carrier="Vrigin mobile"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20826"
+        carrier="NRJ Mobile"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20802"
+        carrier="Orange"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20801"
+        carrier="Vrigin mobile"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20601"
+        carrier="Vrigin mobile"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20810"
+        carrier="NRJ mobile"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="20801"
+        carrier="NRJ mobile"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="27877"
+        carrier="MELITA"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="26803"
+        carrier="Optimus"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="26806"
+        carrier="TMN"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="26801"
+        carrier="Vodafone"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="22210"
+        carrier="Vodafone"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="22802"
+        carrier="Sunrise"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="22801"
+        carrier="Swisscom"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="27821"
+        carrier="GO MOBILE"
+        firstdayofweek="1"
+    />
+    <carrierweek numeric="27801"
+        carrier="VODAFONE"
+        firstdayofweek="1"
+    />
+    <!--DTS2013033006705 chenzhong 20130402 end -->
+</carrierweeks>
+

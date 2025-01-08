@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+
+    <favorite
+        launcher:packageName="com.huawei.android.nfctag"
+        launcher:className="com.huawei.android.nfctag.activity.SceneListActivity"
+        launcher:container="@string/folder_tools" />
+    <folder
+        launcher:title="@string/folder_top_apps"
+        launcher:container="-100"
+        launcher:screen="2"
+        launcher:x="3"
+        launcher:y="1">
+        <favorite
+            launcher:packageName="cn.wps.moffice_eng"
+            launcher:className="cn.wps.moffice.documentmanager.PreStartActivity" />
+        <favorite
+            launcher:packageName="com.huawei.betaclub"
+            launcher:className="com.huawei.betaclub.activity.HomeActivity" />
+    </folder>
+    <favorite
+        launcher:packageName="com.huawei.health"
+        launcher:className="com.huawei.healthcloud.cardui.MainActivity"
+        launcher:container="-100"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto" />
+
+</favorites>

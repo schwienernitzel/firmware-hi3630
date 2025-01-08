@@ -1,0 +1,218 @@
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY DRIVER PROPS ALLOWED IN THIS SECTION BEGIN     "############
+
+
+########"                                                       "############
+########"                                                       "############
+########"   ONLY DRIVER PROPS ALLOWED IN THIS SECTION END       "############
+#############################################################################
+
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY PROTOCOL PROPS ALLOWED IN THIS SECTION BEGIN   "############
+net.tethering.noprovisioning=true
+persist.sys.dualcards=false
+########"                                                       "############
+########"                                                       "############
+########"   ONLY PROTOCOL PROPS ALLOWED IN THIS SECTION END     "############
+#############################################################################
+
+
+
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY APP TEAM PROPS ALLOWED IN THIS SECTION BEGIN   "############
+#####################################################################################
+######## 1.APP MANUFACTURE TEAM BEGIN
+###########1.1.MMI BEGIN
+
+###########1.1.MMI END
+
+###########1.2.PROJECT MENU BEGIN
+
+###########1.2.PROJECT MENU END
+
+###########1.3.RUN IN TEST BEGIN
+
+###########1.3.RUN IN TEST END
+######## 1.APP MANUFACTURE TEAM END
+#####################################################################################
+######## 2.BASEAPP TEAM BEGIN
+ro.cofig.onlinemusic.enabled=false
+ro.cofig.onlinevideo.enabled=false
+ro.config.hw_floatvideo=false
+ro.config.hw_ReduceSAR=true
+#DTS2015111905597 lihui/wx308378 20151130 begin
+ro.config.hw_use_browser_ua=http://wap1.huawei.com/uaprof/HUAWEI_MT7_L09_UAProfile.xml
+#DTS2015111905597 lihui/wx308378 20151130 end
+ro.setupwizard.mode=DISABLED
+#DTS2015121702779 lixiaopeng/wx325578 20160104 begin
+#ro.config.emailsound=Letter.ogg
+#DTS2015121702779 lixiaopeng/wx325578 20160104 end
+ro.config.calendarsound=Step.ogg
+#DTS2016041414717 wubaoqing/00221728 delete the ro.config.hw_custverdisplay
+#DTS2015111903753 yangmeng/wx304751 20151124 begin
+ro.config.hw_nfc_on=false
+#DTS2015111903753 yangmeng/wx304751 20151124 end
+ro.config.hw_nfc_msimce=false
+#DTS2015111100646 xwx308445 20151111 delete
+ro.config.hw_showTestInfo=false
+ro.dual.sim.phone=false
+ro.config.hw_sim2airplane=false
+# DTS2015120701144 pengkelin/pwx307511 20151210 begin
+ro.config.linkplus.roaming=false
+# DTS2015120701144 pengkelin/pwx307511 20151210 end
+######## 2.BASEAPP TEAM END
+#####################################################################################
+######## 3.MULTI-MEDIA TEAM BEGIN
+ro.config.hw.security_volume=8
+######## 3.MULTI-MEDIA TEAM END
+#####################################################################################
+######## 4.FRAMEWORK TEAM BEGIN
+ro.com.google.clientidbase.am=android-huawei
+ro.com.google.clientidbase.gmm=android-huawei
+ro.com.google.clientidbase.ms=android-huawei
+ro.com.google.clientidbase.yt=android-huawei
+ro.config.spare_ntp_server=ntp.sjtu.edu.cn,time.windows.com,time.nist.gov,1.cn.pool.ntp.org
+# DTS2015103000276 pengkelin/pwx307511 20151117 begin
+ro.config.signalplus.tas=true
+# DTS2015121004104 pengkelin/pwx307511 20151215 begin
+ro.config.signalplus.xpass=false
+# DTS2015121004104 pengkelin/pwx307511 20151215 end
+# DTS2015103000276 pengkelin/pwx307511 20151117 end
+######## 4.FRAMEWORK TEAM END
+#####################################################################################
+######## 5.DATA SERVICE TEAM BEGIN
+
+######## 5.DATA SERVICE TEAM END
+#####################################################################################
+######## 6.APPLET TEAM BEGIN
+
+######## 6.APPLET TEAM END
+#####################################################################################
+######## 7.PRODUCT INFO BEGIN
+ro.product.hardwareversion=HL1UGRACEM
+#DTS2016010803654 pengkelin/pwx307511 20160118 delete
+######## 7.PRODUCT INFO END
+#####################################################################################
+########"                                                       "############
+########"                                                       "############
+########"   ONLY APP TEAM PROPS ALLOWED IN THIS SECTION END     "############
+#############################################################################
+#DTS2015092901198  gwx309447 20151012 begin
+ro.config.small.previewpos=left
+#DTS2015092901198  gwx309447 20151012 end
+#DTS2015100903236 gwx309447 20151023 begin
+ro.config.ChargingAlbum=true
+#DTS2015100903236 gwx309447 20151023 end
+#DTS2015111308849 wanglin/wx308377 20151113 begin
+ro.config.hw_multiscreen=false
+#DTS2015110406549 wanglin/wx308377 2015111113 end
+#DTS2015110406549 wanglin/wx308377 20151113 begin
+ro.config.support_ca=true
+#DTS2015110406549 wanglin/wx308377 201511113 end
+ro.config.finger_joint=true
+#DTS2015111303618 xwx308445 20151119 delete
+ro.product.manufacturer=HUAWEI
+ro.config.hw_eapsim=true
+#DTS2014022107549 dongwei 20140221 begin
+#ro.huawei.cust.oma_drm=true
+#ro.huawei.cust.drm.fl_only=true
+#DTS2014022107549 dongwei 20140221 end
+gsm.fastdormancy.mode=3
+#DTS2015102103354 nilongyu/00111309 20151023, delete
+#DTS2014012601155 z00208524 20140211 begin
+#Don't use ipcall feature in Normal channel
+#DTS2014012206820 z00208524 20140207 begin
+#DTS2014012206820 z00208524 20140207 end
+#DTS2014012601155 z00208524 20140211 end
+ro.config.ShowNavigationBar=true
+ro.config.hw_glovemode_enabled=1
+# DTS2013103009540 jiangyuwei 00250028 20131105 Begin
+ro.config.hw_blacklist=true
+# DTS2013103009540 jiangyuwei 00250028 20131105 End
+#DTS2014012405638 c84001808 20140124 begin
+ro.config.forbid_internal_call=true
+#DTS2014012405638 c84001808 20140124 end
+#DTS2014030609099 caichunhua 00221616 begin
+ro.huawei.flag.oma_reboot=true
+#DTS2014030609099 caichunhua 00221616 end
+
+#DTS2014070205511 leiwei81004307 20140711 begin
+#DTS2014070205511 leiwei81004307 20140711 end
+#DTS2014061201750 zhuzefeng 00266453 20140715 begin
+#DTS2015111303618 xwx308445 20151119 delete
+#DTS2014061201750 zhuzefeng 00266453 20140715 end
+#DTS2014072308785 zhuzefeng 00266453 20140725 begin
+ro.config.hw_lte_support=true
+#DTS2014072308785 zhuzefeng 00266453 20140725 end
+#DTS2014080900617 huangjunlin WX204813 20140812 begin
+#DTS2014080900617 huangjunlin WX204813 20140812 end
+# DTS2014071600733 begin
+#DTS2015110406549 wanglin/wx308377 20151113 delete
+# DTS2014071600733 end
+#DTS2014082109828 leiwei81004307 20140904 begin
+ro.config.hw_channel_info=0,0,0,0
+#DTS2014082109828 leiwei81004307 20140904 end
+#DTS2014120401108 f81004127 20141224 begin
+ro.config.attach_apn_enabled=true
+#DTS2014120401108 f81004127 20141224 end
+#DTS2014120400959 jWX205233 20141229 begin
+#DTS2015111303614 f00359912 20151118 begin
+
+#DTS2015111303614 f00359912 20151118 end
+#DTS2015111303614 f00359912 20151118 begin
+
+#DTS2015111303614 f00359912 20151118 end
+#DTS2014120400959 jWX205233 20141229 end
+#DTS2014120401106 f81004127 20141229 begin
+#DTS2015111303614 f00359912 20151118 begin
+
+#DTS2015111303614 f00359912 20151118 end
+#DTS2014120401106 f81004127 20141229 end
+#DTS2014120401107 f81004127 20141231 begin
+#DTS2015111303614 f00359912 20151118 begin
+
+#DTS2015111303614 f00359912 20151118 end
+#DTS2014120401107 f81004127 20141231 end
+#DTS2014120401104 f81004127 20140105 begin
+ro.config.hw_show_network_icon=true
+#DTS2014120401104 f81004127 20140105 end
+ro.product.varprofile=true
+ro.product.varprofile.base=L09
+ro.product.varprofile.high=L09
+ro.product.varprofile.highhigh=L09
+
+#DTS2015051803603  wuyongchao wwx275179 20150520 begin
+ro.config.StepCalculator=true
+#DTS2015051803603  wuyongchao wwx275179 20150520 end
+#DTS2015052202082  wx275179 20150726 begin
+#DTS2015052202082  wx275179 20150726 end
+#DTS2015051905801 00293372 begin
+#DTS2015051905801 00293372 end
+#DTS2015052608979    wuyongchao wwx275179 20150615 begin
+#DTS2016020302136 fanzhichao/359912 20160203 begin
+ro.config.fp_add_notification=false
+#DTS2016020302136 fanzhichao/359912 20160203 end
+#DTS2015052608979    wuyongchao wwx275179 20150615 end
+ro.product.member.level=0
+

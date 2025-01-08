@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources>
+    <!-- DTS2016022701116 wangchao/00221726 20160227 delete -->
+    <bool hw_backup_sd_disable ="true"/>
+    <!-- DTS2015091507410 wx308445 20150928 delete-->
+    <!-- DTS2014031003255 malijuan/kf67138 20140312 begin-->
+    <string theme_no_online = "false"/>
+    <!-- DTS2014031003255 malijuan/kf67138 20140312 end-->
+    <!-- DTS2013091002654 by qianjing begin -->
+    <!--<integer settings.system.single_hand_smart="1"/>-->
+    <!-- DTS2013091002654 by qianjing end -->
+    <!-- DTS2013091202263 xuwenfang begin -->
+    <!-- DTS2013111309038 guiwen/gkf66765 20131113 begin -->
+    <!-- DTS2014021806752 guiwen/gkf66765 20140218 begin -->
+    <!-- DTS2014021806752 guiwen/gkf66765 20140218 end -->
+    <!-- DTS2013111309038 guiwen/gkf66765 20131113 end -->
+    <!-- DTS2013112203297 guiwen/gkf66765 20131122 begin -->
+    <!-- DTS2013091010534 lujianhai begin -->
+    <!-- DTS2016031008452 xiaoyang/xwx332735 20160418 delet -->
+    <!-- DTS2013091010534 lujianhai end -->
+    <!--DTS2011121307393 luowentao 20111213 begin-->
+    <integer hwfeature_mmssound="1"/>
+    <!--DTS2011121307393 luowentao 20111213 end-->
+    <!-- DTS2011112802074 yangchenghai 00184280 20111208 begin -->
+    <!-- When remote hand up ,whether screen should wakeup or not ,here we set value is wakeup-->
+    <!-- BEGIN PN: DTS2014070906123, Modified by jiangpingping/KF58212, 2014/07/10 -->
+    <!--<bool hw_call_wakeup="true"/>-->
+    <!-- END PN: DTS2014070906123, Modified by jiangpingping/KF58212, 2014/07/10 -->
+    <!-- DTS2011112802074 yangchenghai 00184280 20111208 end -->
+    <!-- DTS2015121000109 pengkelin/pwx307511 20151211 delete -->
+    <!-- DTS2011030905517 shifengbin 20110314 begin -->
+    <string settings.secure.location_providers_allowed=""/>
+    <!-- DTS2011030905517 shifengbin 20110314 end -->
+    <!-- DTS2010092701023 mengxiaokun00172620 20100930 begin -->
+    <integer power_saving_on="1"/>
+    <!-- DTS2010092701023 mengxiaokun00172620 20100930 end -->
+    <!-- DTS2011121605249 niguanhua 20111216 begin -->
+    <!-- When remote answer ,whether vibrate should turn on  or not ,here we set value is turn on-->
+    <integer hw_vibrate_on="1"/>
+    <integer vibrate_on_message="1"/>
+    <integer vibrate_when_ringing="1"/>
+    <!-- DTS2015091507410 wx308445 20150928 delete-->
+    <!-- DTS2011121605249 niguanhua 20111216 end -->
+    <!-- DTS2011080903932 yushaochen 20110811 begin -->
+    <!-- BEGIN PN: DTS2014070906123, Modified by jiangpingping/KF58212, 2014/07/10 -->
+    <!--<integer hwfeature_endtocall_log="1"/>-->
+    <!-- END PN: DTS2014070906123, Modified by jiangpingping/KF58212, 2014/07/10 -->
+    <!-- DTS2011080903932 yushaochen 20110811 end -->
+    <!-- DTS2011072606499 wanggang 20110802 begin -->
+    <integer log_emergency_number="1"/>
+    <!-- DTS2011072606499 wanggang 20110802 end -->
+    <!-- DTS2011112503270 yangchenghai 00184280 20111205 begin -->
+    <integer ipcall_enabled="1" />
+    <!-- DTS2011112503270 yangchenghai 00184280 20111205 end -->
+    <!-- DTS2011111100533 wanggang 20110804 begin -->
+    <integer popup_saveoropen="1"/>
+    <!-- DTS2011111100533 wanggang 20110804 end -->
+    <!-- DTS2012022300283  linrongqiu 20120228 begin -->
+    <integer config_camera_stopFM="0"/>
+    <!-- DTS2012022300283  linrongqiu 20120228 end -->
+    <!-- DTS2012022804212 zhangyafeng 20120228 begin -->
+         <integer hw_video_qulity_level="1"/>
+    <!-- DTS2012022804212 zhangyafeng 20120228 end -->
+    <!-- DTS2012022005900  litie 20120302 begin -->
+    <integer hw_front_camera_support_coloreffect="1"/>
+    <!-- DTS2012022005900  litie 20120302 end -->
+    <!-- DTS2012071804139  j00172194 add begin -->
+    <integer hw_incall_report_on="0"/>
+    <!-- DTS2012071804139  j00172194 add end-->
+    <integer close_all_apps="1"/>
+    <!-- DTS2012081003589  zhangyafeng z00814311 begin -->
+    <integer has_time_synchronization="0"/>
+    <integer has_agps_settings="0"/>
+    <integer has_assisted_gps="0"/>
+    <!-- DTS2012081003589  zhangyafeng z00184311 end -->
+    <!-- DTS2013041105196 h00223761 20130417 begin -->
+    <integer has_cmcc_auto_sepc="1"/>
+    <!-- DTS2013041105196 h00223761 20130417 end -->
+    <integer is_support_gateway="1"/>
+    <integer is_Priority_supported="1"/>
+    <integer airplane_wifi_enable="0"/>
+    <integer is_show_google="0"/>
+    <!-- DTS2012120705509 changleitao/KF49063 20121210 begin -->
+    <string hwsupport_bluetooth_media="true"/>
+    <!-- DTS2012120705509 changleitao/KF49063 20121210 end -->
+    <!-- DTS2014031104695 zhuweichen 20140311 being -->
+    <!-- DTS2015091507410 wx308445 20150928 delete-->
+    <!-- DTS2014031104695 zhuweichen 20140311 end -->
+    <!-- DTS2013040202464  y00227481 20130402 begin -->
+    <!-- #DTS2015090806017 xwx308445 20150908 begin -->
+    <string plmn="460003#46003,en_US,China Telecom;460003#46003,zh_CN,中国电信;460003#46003,zh_TW,中國電信;460003#46003,zh_HK,中國電信;460000#46000#460002#46002#460007#46007#460008#46008,en_US,China Mobile;460000#46000#460002#46002#460007#46007#460008#46008,zh_CN,中国移动;460000#46000#460002#46002#460007#46007#460008#46008,zh_TW,中國移動;460000#46000#460002#46002#460007#46007#460008#46008,zh_HK,中國移動;460001#46001,en_US,China Unicom;460001#46001,zh_CN,中国联通;460001#46001,zh_TW,中國聯通;460001#46001,zh_HK,中國聯通;999999#99999,en_US,Unknown Network;999999#99999,zh_CN,未知网络;999999#99999,zh_TW,未知網絡;999999#99999,zh_HK,未知網絡"/>
+    <!-- #DTS2015090806017 xwx308445 20150908 end -->
+    <!-- DTS2013040202464  y00227481 20130402 end -->
+
+
+    <string reg_plmn_custom="46000,46002,46007,46008;24001,24007,24005;24405,24421;24002,24008,24004;46060,46008;23430,23433;21407,21404;24421,24405;23212,23205;23207,23203;23211,23201"/>
+    <!-- DTS2014031203976 xiaoweijun/00188575 20140312 delete begin -->
+    <!-- DTS2014031203976 xiaoweijun/00188575 20140312 delete end -->
+    <!-- DTS2013030507402, DTS2013030507295 CMCC Swx163711 08-03-2012 begin -->
+    <integer show_mms_expired_status="1"/>
+    <!-- DTS2013030507402, DTS2013030507295 CMCC Swx163711 08-03-2012 end -->
+    <!-- DTS2013042604963 x00188575 20130426 begin -->
+    <!-- DTS2013111106979 x00188575 20131111 begin -->
+    <!-- DTS2014081403106 w00252963 20140815 delete begin -->
+    <!-- DTS2014081403106 w00252963 20140815 delete end -->
+	<!-- DTS2013111106979 x00188575 20131111 end -->
+    <!-- DTS2013042604963 x00188575 20130426 end -->
+    <!-- DTS2014060500973 z00178179 20140619 begin -->
+    <!-- DTS2014081403106 w00252963 20140815 delete begin -->
+    <!-- DTS2014081403106 w00252963 20140815 delete end -->
+    <!-- DTS2014060500973 z00178179 20140619 end -->
+    <!--DTS2013051508741 wangxiuzhu 20130515 begin  -->
+    <string hw_notOnlyUse2g_restoreFactory="true"/>
+    <!--DTS2013051508741 wangxiuzhu 20130515 end -->
+    <!-- DTS2015010903335 wangliang 00212520 20150112 begin -->
+    <!--<string  settings.system.theme_message_path="/system/media/audio/notifications/Whisper.ogg"/>-->
+    <!-- DTS2015010903335 wangliang 00212520 20150112 end -->
+    <!-- DTS2014022401899 guiwen/gkf66765 20140224 begin -->
+    <!-- DTS2015010903335 wangliang 00212520 20150112 begin -->
+    <!--<string  settings.system.theme_email_path="/system/media/audio/notifications/Letter.ogg"/>
+    <string  settings.system.theme_calendar_path="/system/media/audio/notifications/Step.ogg"/>-->
+    <!-- DTS2015010903335 wangliang 00212520 20150112 end -->
+    <!-- DTS2014022401899 guiwen/gkf66765 20140224 end -->
+    <!-- DTS2013091102070 zhangqian00186201 20130926 begin -->
+    <!-- DTS2013112203297 guiwen/gkf66765 20131122 begin -->
+    <!-- DTS2014021806752 guiwen/gkf66765 20140218 begin -->
+    <string colors_themes="white,/system/themes/Brightness.hwt;black,/system/themes/Brightness.hwt"/>
+    <!-- DTS2014021806752 guiwen/gkf66765 20140218 end -->
+    <!-- DTS2013112203297 guiwen/gkf66765 20131122 end -->
+    <!-- DTS2013091102070 zhangqian00186201 20130926  end -->
+    <!-- DTS2013112202552 m00225857 2013129  begin -->
+    <integer set_defalut_cmcc_ap="1"/>
+    <integer set_defalut_cmcc_auto_ap="1"/>
+    <!-- DTS2013112202552 m00225857 2013129  end    -->
+	<!-- DTS2014022702945 z00187968 20140228 begin -->
+	<integer wifi_p2p_state="1"/>
+	<!-- DTS2014022702945 z00187968 20140228 end    -->
+    <!-- DTS2014030800351 jiayanhong/00176905 20140308 begin -->
+    <!-- DTS2014053000811   zhanghao 00260328 20140616 begin-->
+    <!-- DTS2014062307965 g00122041 20140623 begin-->
+    <string no_write_sms_package="com.huawei.android.ds,com.android.mediacenter,com.huawei.hwid,com.huawei.security,com.huawei.hisuite,com.android.phone,com.huawei.remoteassistant"/>
+    <!-- DTS2014062307965 g00122041 20140623 end-->
+    <!-- DTS2014053000811   zhanghao 00260328 20140616 end-->
+    <!-- DTS2014030800351 jiayanhong/00176905 20140308 end -->
+    <!-- DTS2014081910238 luomeiling 20140820 add-->
+    <!-- DTS2014081910238 luomeiling 20140820 add-->
+    <integer settings.system.glove_file_node="0" />
+    <!-- DTS2015090806017 xwx308445 20150908 begin -->
+    <string settings.system.hw_numbermark_option="hw_numbermark_uselocal"/>
+    <!-- DTS2015091507410 wx308445 20150928 delete-->
+    <!-- DTS2015090806017 xwx308445 20150908 end -->
+    <!-- DTS2015110907012 yaozebo/wx309825 20151112 begin -->
+    <integer settings.global.wifi_sleep_policy="1"/>
+    <!-- DTS2015110907012 yaozebo/wx309825 20151112 end -->
+    <!-- DTS2016011100274 wanglin/wx308377 20160114 begin -->
+    <integer hw_default_support_call_barring="1"/>
+    <!-- DTS2016011100274 wanglin/wx308377 20160114 end -->
+    <!-- DTS2016052504783 wanghaiwei/wx301824 20160530 begin -->
+    <integer isShowNetworkType="1" reset="true"/>
+    <!-- DTS2016052504783 wanghaiwei/wx301824 20160530 end -->
+</resources>
+

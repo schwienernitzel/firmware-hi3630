@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <tag>
+        <apk>
+             /system/priv-app/HwCallRecorder.apk;
+             /system/priv-app/HwPhoneService.apk;
+             /system/priv-app/VoiceDialer.apk;
+             /system/app/HwUserExperience.apk;
+             /system/priv-app/CellBroadcastReceiver.apk;
+       </apk>
+    </tag>

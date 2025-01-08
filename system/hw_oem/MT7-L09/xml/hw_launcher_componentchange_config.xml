@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<change version="1" system="L09">
+
+    <components start = "001" end = "522">
+
+    <component old = "com.android.browser/.BrowserActivity" new = "com.android.chrome/com.google.android.apps.chrome.Main"/>
+
+    <component old = "com.android.contacts/com.android.mms.ui.ConversationList" new = "com.android.mms/.ui.ConversationList"/>
+
+    </components>
+
+</change>

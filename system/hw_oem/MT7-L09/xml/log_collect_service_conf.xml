@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<ServiceConfiguration version="1">
+    <RootPath>/splash2/log</RootPath>
+    <MaxTotalSize>26214400</MaxTotalSize>
+</ServiceConfiguration>

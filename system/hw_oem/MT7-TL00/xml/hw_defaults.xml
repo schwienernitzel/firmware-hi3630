@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources>
+    <!--******************************** 1.PROTOCOL TEAM BEGIN -->
+    <string plmn="460003#46003,en_US,China Telecom;460003#46003,zh_CN,中国电信;460003#46003,zh_TW,中國電信;460003#46003,zh_HK,中國電信;460000#46000#460002#46002#460007#46007#460008#46008,en_US,China Mobile;460000#46000#460002#46002#460007#46007#460008#46008,zh_CN,中国移动;460000#46000#460002#46002#460007#46007#460008#46008,zh_TW,中國移動;460000#46000#460002#46002#460007#46007#460008#46008,zh_HK,中國移動;460001#46001#460009#46009,en_US,China Unicom;460001#46001#460009#46009,zh_CN,中国联通;460001#46001#460009#46009,zh_TW,中國聯通;460001#46001#460009#46009,zh_HK,中國聯通;999999#99999,en_US,Unknown Network;999999#99999,zh_CN,未知网络;999999#99999,zh_TW,未知網絡;999999#99999,zh_HK,未知網絡"/>
+    <string reg_plmn_custom="46000,46002,46007,46008;24001,24007,24005;24405,24421;24002,24008,24004;46060,46008;23430,23433;21407,21404;24421,24405;23212,23205;23207,23203;23211,23201"/>
+    <!--******************************** 1.PROTOCOL TEAM END -->
+    <!--******************************** 2.APP MANUFACTURE TEAM BEGIN -->
+
+    <!--******************************** 2.APP MANUFACTURE TEAM END -->
+    <!--******************************** 3.BASEAPP TEAM BEGIN -->
+    <!-- DTS2015091507410 wx308445 20150928 delete-->
+    <integer ipcall_enabled="1" />
+    <!-- DTS2015091507410 wx308445 20150928 delete-->
+    <integer is_show_google="0"/>
+    <integer power_saving_on="1"/>
+    <integer settings.global.mobile_data="1"/>
+    <!-- DTS2015121000109 pengkelin/pwx307511 20151211 delete -->
+    <integer settings.secure.wifi_ap_channel="11"/>
+    <!-- DTS2016031008452 xiaoyang/xwx332725 20160416 delete -->
+    <!-- DTS2015102802373 wanglin/wx308377 20151028 delete -->
+    <!--******************************** 3.BASEAPP TEAM END -->
+    <!--******************************** 4.MULTI-MEDIA TEAM BEGIN -->
+
+    <!--******************************** 4.MULTI-MEDIA TEAM END -->
+    <!--******************************** 5.FRAMEWORK TEAM BEGIN -->
+
+    <!--******************************** 5.FRAMEWORK TEAM END -->
+    <!--******************************** 6.DATA SERVICE TEAM BEGIN -->
+
+    <!--******************************** 6.DATA SERVICE TEAM END -->
+    <!--******************************** 7.APPLET TEAM BEGIN -->
+
+    <!--******************************** 7.APPLET TEAM END -->
+    <!--******************************** 8.CUSTOM TEAM BEGIN -->
+
+    <!--******************************** 8.CUSTOM TEAM END -->
+    <!-- DTS2015090202800 xuwenyi/wx308445 20150902 begin -->
+    <string theme_no_online = "false"/>
+    <integer log_emergency_number="1"/>
+    <integer close_all_apps="1"/>
+    <integer hw_vibrate_on="1"/>
+    <integer set_defalut_cmcc_auto_ap="1"/>
+    <string settings.secure.location_providers_allowed=""/>
+    <integer vibrate_when_ringing="1"/>
+    <integer popup_saveoropen="1"/>
+    <!-- DTS2016022701116 wangchao/00221726 20160227 delete -->
+    <!-- DTS2015091507410 wx308445 20150928 delete-->
+    <integer is_Priority_supported="1"/>
+    <integer is_support_gateway="1"/>
+    <integer set_defalut_cmcc_ap="1"/>
+    <integer vibrate_on_message="1"/>
+    <integer hw_incall_report_on="0"/>
+    <!-- DTS2015091507410 wx308445 20151105 delete-->
+    <integer has_cmcc_auto_sepc="1"/>
+    <integer hw_video_qulity_level="1"/>
+    <integer show_mms_expired_status="1"/>
+    <!-- DTS2015090202800 xuwenyi/wx308445 20150902 end -->
+    <!-- DTS2014021806752 guiwen/gkf66765 20140218 begin -->
+    <string colors_themes="white,/system/themes/Brightness.hwt;black,/system/themes/Brightness.hwt"/>
+    <!-- DTS2014021806752 guiwen/gkf66765 20140218 end -->
+    <!-- DTS2015090806017 lihui/wx308378 20150908 begin -->
+    <string settings.system.hw_numbermark_option="hw_numbermark_uselocal"/>
+    <!-- DTS2015121702779 lixiaopeng/wx325578 20160104 begin -->
+    <!-- <string settings.system.theme_email_path="/system/media/audio/notifications/Letter.ogg"/> -->
+    <!-- DTS2015121702779 lixiaopeng/wx325578 20160104 end -->
+    <string settings.system.theme_message_path="/system/media/audio/notifications/Whisper.ogg"/>
+    <string no_write_sms_package="com.huawei.android.ds,com.android.mediacenter,com.huawei.hwid,com.huawei.security,com.huawei.hisuite,com.android.phone,com.huawei.remoteassistant,com.huawei.systemmanager"/>
+    <!-- DTS2015090806017 lihui/wx308378 20150908 end -->
+    <!-- DTS2015090909485 wanglei/217099 20150909 begin -->
+    <integer wifi_p2p_state="1"/>
+    <!-- DTS2015090909485 wanglei/217099 20150909 end -->
+    <!-- DTS2015110907012 yaozebo/wx309825 20151112 begin -->
+    <integer settings.global.wifi_sleep_policy="1"/>
+    <!-- DTS2015110907012 yaozebo/wx309825 20151112 end -->
+</resources>

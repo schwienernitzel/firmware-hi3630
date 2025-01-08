@@ -1,0 +1,11 @@
+/data/dataapp/Huawei_Swype_for_Huawei/Huawei_Swype_for_Huawei.apk
+/data/dataapp/Moffice/Moffice.apk
+/data/dataapp/YouTube/YouTube.apk
+/data/dataapp/Hangouts/Hangouts.apk
+/data/dataapp/Maps/Maps.apk
+/data/dataapp/Music2/Music2.apk
+/data/dataapp/PlayGames/PlayGames.apk
+/data/dataapp/Photos/Photos.apk
+/data/dataapp/Newsstand/Newsstand.apk
+/data/dataapp/Books/Books.apk
+/data/dataapp/HwPhoneService/HwPhoneService.apk

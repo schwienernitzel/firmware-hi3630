@@ -1,0 +1,8 @@
+#DTS2015100903236 gwx309447 20151023 begin
+ro.config.ChargingAlbum=true
+#DTS2015100903236 gwx309447 20151023 end
+#DTS2016010803654 pengkelin/pwx307511 20160118 delete
+# DTS2015103000276 pengkelin/pwx307511 20151030 begin
+ro.config.signalplus.tas=true
+ro.config.signalplus.xpass=true
+# DTS2015103000276 pengkelin/pwx307511 20151030 end

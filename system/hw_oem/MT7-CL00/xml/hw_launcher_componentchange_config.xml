@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<change version="1" system="CL00">
+
+    <components start = "001" end = "522">
+
+    <component old = "com.android.browser/.BrowserActivity" new = "com.android.browser/com.UCMobile.main.UCMobile"/>
+
+    <component old = "com.huawei.hwvplayer/.framework.MainActivity" new = "com.huawei.hwvplayer.youku/com.huawei.hwvplayer.framework.MainActivity"/>
+
+    <component old = "com.android.contacts/com.android.mms.ui.ConversationList" new = "com.android.mms/.ui.ConversationList"/>
+
+    <component old = "com.huawei.health/.ui.SplashActivity" new = "com.huawei.health/com.huawei.healthcloud.cardui.MainActivity"/>
+
+    <component old = "cn.wps.moffice_i18n/cn.wps.moffice.documentmanager.PreStartActivity" new = "cn.wps.moffice_eng/cn.wps.moffice.documentmanager.PreStartActivity"/>
+
+    <component old = "com.android.gallery3d/com.huawei.gallery.app.GalleryActivity" new = "com.android.gallery3d/com.huawei.gallery.app.GalleryMain"/>
+
+    </components>
+
+</change>
