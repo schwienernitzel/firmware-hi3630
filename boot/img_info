@@ -1,0 +1,12 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=2048
+kernel_size=7547864
+ramdisk_size=3296179
+base_addr=0x00600000
+kernel_offset=0x00008000
+ramdisk_offset=0x03a00000
+tags_offset=0xffc00000
+cmd_line='vmalloc=384M coherent_pool=512K mem=2044m@0x200000 psci=enable mmcparts=mmcblk0:p1(vrl),p2(vrl_backup),p7(modemnvm_factory),p18(splash),p22(dfx),p23(modemnvm_backup),p24(modemnvm_img),p25(modemnvm_system),p26(modem),p27(modem_dsp),p28(modem_om),p29(modemnvm_update),p31(3rdmodem),p32(3rdmodemnvm),p33(3rdmodemnvmbkp) user_debug=7 androidboot.selinux=enforcing enter_recovery=1 enter_erecovery=0'
+board=""
+format=gzip
